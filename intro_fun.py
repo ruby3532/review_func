@@ -7,7 +7,6 @@ def wash(dry=False, water=8):
 	if dry:
 		print('烘衣')
 
-
 wash()
 
 def say_hi():
