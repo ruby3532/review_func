@@ -1,14 +1,14 @@
 # 介紹 function
 
-def wash(dry):
-	print('加水')
+def wash(dry=False, water=8):
+	print('加水', water, '分滿')
 	print('旋轉')
 	print('加洗衣精')
 	if dry:
 		print('烘衣')
 
-wash(True)
-wash(False)
+
+wash()
 
 def say_hi():
 	print('hi')
