@@ -28,6 +28,29 @@ count() # 即使不給參數仍可以執行功能，因為有預設值
 count(5) # 參數會自動按照順序投
 count(b=5) # 即使有預設參數，仍可以指定投的東西
 
+print('---------------------')
+def count(a=1, b=0):
+	return a+b
+
+result = count()
+print(result)
+
+print('---------------------')
+def average(numbers):
+	avg = sum(numbers) / len(numbers)
+	return avg
+
+a = average([1, 2, 3])
+print(a)
+print('簡化結果如下：')
+def average(numbers):
+	return sum(numbers) / len(numbers)
+print(average([1, 2, 3]))
+
+
+
+
+
 
 
 
